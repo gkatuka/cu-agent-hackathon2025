@@ -1,0 +1,33 @@
+{
+    "id": "1893fed6-516d-4832-968c-92fac9e28fea",
+    "status": "Succeeded",
+    "result": {
+        "analyzerId": "cu-sample-d57ca3e8-200b-47b0-a355-53a52922190d",
+        "apiVersion": "2024-12-01-preview",
+        "createdAt": "2025-03-31T06:21:53Z",
+        "warnings": [],
+        "contents": [
+            {
+                "markdown": "# Electronic Health Record (EHR)\n\n\n## Patient Information\n\nFull Name: John A. Smith\n\nDate of Birth: 05/14/1985\n\nAge: 38\n\nGender: Male\n\nPatient ID: 20250313-001\n\nBlood Type: O+\n\nAddress: 123 Elm Street, Seattle, WA 98101\n\nPhone: (206) 555-7890\n\nEmail: john.smith@email.com\n\nEmergency Contact: Jane Smith (Spouse), Phone: (206) 555-1234\n\n\n## Medical History\n\nChronic Conditions: Hypertension (2017), Type 2 Diabetes (2020)\n\nAllergies: Penicillin (Severe - anaphylaxis), Peanuts (Mild rash)\n\nSurgical History: Appendectomy (2012), Knee Arthroscopy (2021)\n\nFamily History: Father - Type 2 Diabetes, Hypertension; Mother - Hyperthyroidism; No siblings\n\n\n## Current Medications\n\nMetformin - 500 mg, Twice Daily (Blood sugar control)\nLisinopril - 10 mg, Once Daily (Blood pressure control)\n\nAspirin - 81 mg, Once Daily (Cardiovascular health)\n\n\n## Chief Complaint (CC)\n\n\"Persistent fatigue and frequent urination over the past month.\"\n\n\n## History of Present Illness (HPI)\n\nJohn A. Smith is a 38-year-old male with a history of Type 2 Diabetes and Hypertension. He\npresents with complaints of persistent fatigue and increased urination for the past four weeks.\nReports increased thirst and occasional blurry vision. Blood sugar levels fluctuating between\n180-220 mg/dL at home.\n\n<!-- PageBreak -->\n\n\n## Vital Signs\n\nBlood Pressure: 138/88 mmHg\n\nHeart Rate: 78 bpm\n\nRespiratory Rate: 16 breaths/min\n\nTemperature: 98.6\u00b0F (37\u2103)\nOxygen Saturation: 98%\nWeight: 180 lbs\n\nHeight: 5'11\" (180 cm)\n\nBMI: 25.1\n\n\n## Laboratory Results (Ordered)\n\nFasting Blood Glucose: 198 mg/dL (Normal: 70-99 mg/dL)\n\nHemoglobin A1C: 8.1% (Normal: < 5.7%)\n\nComplete Blood Count (CBC): WNL\n\nKidney Function (Creatinine): 1.1 mg/dL (Normal: 0.6-1.3 mg/dL)\nUrinalysis: + Glucose, No Ketones\n\n\n## Assessment & Plan\n\n1\\. Uncontrolled Type 2 Diabetes Mellitus (A1C: 8.1%)\n\n\\- Increase Metformin to 1000 mg twice daily.\n\n\\- Consider adding GLP-1 agonist (Semaglutide).\n\n2\\. Hypertension (Stable, 138/88 mmHg)\n\n3\\. Fatigue likely secondary to hyperglycemia.\n\n4\\. Lifestyle Modifications: Recommend low-carb diet, increased water intake, and daily exercise.\n\n5\\. Follow-up in 6 weeks with repeat A1C and fasting glucose test.\n\n6\\. Patient Education: Signs of worsening diabetes, vision loss, or severe fatigue.\n\n\n## Physician's Notes\n\nPhysician Name: Dr. Emily Carter\n\nDate of Visit: 03/13/2025\n\nClinic: Seattle Primary Care\n",
+                "kind": "document",
+                "startPageNumber": 1,
+                "endPageNumber": 2,
+                "unit": "inch",
+                "pages": [
+                    {
+                        "pageNumber": 1,
+                        "angle": 0.0298833,
+                        "width": 8.2639,
+                        "height": 11.6806
+                    },
+                    {
+                        "pageNumber": 2,
+                        "angle": 0.05149139,
+                        "width": 8.2639,
+                        "height": 11.6806
+                    }
+                ]
+            }
+        ]
+    }
+}

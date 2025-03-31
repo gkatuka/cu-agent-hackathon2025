@@ -1,0 +1,79 @@
+{
+    "scenario": "callCenter",
+    "description": "Sample audio analytics testing custome analyzer",
+    "config": {
+        "returnDetails": true,
+        "locales": [
+            "en-US"
+        ]
+    },
+    "fieldSchema": {
+        "fields": {
+            "FullName": {
+                "type": "string",
+                "method": "generate",
+                "description": "The complete name of the patient."
+            },
+            "DateOfBirth": {
+                "type": "string",
+                "method": "generate",
+                "description": "The birth date of the patient."
+            },
+            "Gender": {
+                "type": "string",
+                "method": "classify",
+                "description": "The gender of the patient.",
+                "enum": [
+                    "Male",
+                    "Female",
+                    "Other"
+                ]
+            },
+            "PatientID": {
+                "type": "string",
+                "method": "generate",
+                "description": "A unique identifier assigned to the patient."
+            },
+            "BloodType": {
+                "type": "string",
+                "method": "classify",
+                "description": "The blood type of the patient.",
+                "enum": [
+                    "A+",
+                    "A-",
+                    "B+",
+                    "B-",
+                    "AB+",
+                    "AB-",
+                    "O+",
+                    "O-"
+                ]
+            },
+            "ChronicConditions": {
+                "type": "string",
+                "method": "generate",
+                "description": "List of chronic conditions diagnosed in the patient."
+            },
+            "CurrentMedications": {
+                "type": "string",
+                "method": "generate",
+                "description": "Medications currently prescribed to the patient."
+            },
+            "ChiefComplaint": {
+                "type": "string",
+                "method": "generate",
+                "description": "The primary issue or symptom that the patient is experiencing."
+            },
+            "VitalSigns": {
+                "type": "string",
+                "method": "generate",
+                "description": "The recorded vital signs of the patient during the visit."
+            },
+            "LaboratoryResults": {
+                "type": "string",
+                "method": "generate",
+                "description": "Results from laboratory tests ordered for the patient. Great"
+            }
+        }
+    }
+}

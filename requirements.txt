@@ -1,0 +1,15 @@
+streamlit
+streamlit-chat
+pandas
+python-dotenv
+openai
+azure-identity
+azure-search-documents
+pyaml
+termcolor==2.4.0
+loguru
+asyncio
+azure-search-documents
+fpdf
+pdfkit
+markdown2
