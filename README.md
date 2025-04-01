@@ -9,7 +9,8 @@
 - **Speech Analytics**: Analyzes the uploaded audio file using the finalized schema to extract relevant information via the Speech Analytics Agent.
 - **Document Creation**: Combines the analytics output and the finalized schema to produce a comprehensive EHR document using the Document Creation Agent.
 - **Review and Export**: Enables users to review, edit, and export the final EHR document to PDF.
-
+  
+## Getting started
 1. **Navigate to Project Directory**:
    Change to the directory where your project files are located:
    ```
