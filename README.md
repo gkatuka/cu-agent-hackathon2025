@@ -38,14 +38,19 @@
    ```
    pip install -r requirements.txt
    ```
-
-6. **Run the streamlit Application**:
+6. **Run the following command**:
+   ```
+   python main.py --pdf  input_data/EHR_John_Smith.pdf --audio input_data/doctor_patient_extended_conversation.wav
+   ```
+   **OR**
+   
+8. **Run the streamlit Application**:
    Start your Streamlit app by running:
    ```
    streamlit run app.py
    ```
-
-7. **Deactivate the Virtual Environment**:
+  **OR
+8. **Deactivate the Virtual Environment**:
    When done, deactivate the virtual environment using:
    ```
    deactivate
