@@ -49,7 +49,6 @@
    ```
    streamlit run app.py
    ```
-  **OR
 8. **Deactivate the Virtual Environment**:
    When done, deactivate the virtual environment using:
    ```
