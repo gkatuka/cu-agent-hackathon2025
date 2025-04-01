@@ -9,7 +9,8 @@
 - **Speech Analytics**: Analyzes the uploaded audio file using the finalized schema to extract relevant information via the Speech Analytics Agent.
 - **Document Creation**: Combines the analytics output and the finalized schema to produce a comprehensive EHR document using the Document Creation Agent.
 - **Review and Export**: Enables users to review, edit, and export the final EHR document to PDF.
-
+  
+## Getting started
 1. **Navigate to Project Directory**:
    Change to the directory where your project files are located:
    ```
@@ -37,14 +38,19 @@
    ```
    pip install -r requirements.txt
    ```
-
-6. **Run the streamlit Application**:
+6. **Run the following command**:
+   ```
+   python main.py --pdf  input_data/EHR_John_Smith.pdf --audio input_data/doctor_patient_extended_conversation.wav
+   ```
+   **OR**
+   
+8. **Run the streamlit Application**:
    Start your Streamlit app by running:
    ```
    streamlit run app.py
    ```
-
-7. **Deactivate the Virtual Environment**:
+  **OR
+8. **Deactivate the Virtual Environment**:
    When done, deactivate the virtual environment using:
    ```
    deactivate
